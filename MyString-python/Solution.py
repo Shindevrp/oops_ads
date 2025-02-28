@@ -91,7 +91,7 @@ class MyString:
         return new_string
     
     def replace_first(self, regex, replacement:'MyString'):
-        new_string = re.sub(regex, replacement.s, self.s, c=1)
+        new_string = re.sub(regex, replacement.s, self.s, count=1)
         
         return (new_string)
     
