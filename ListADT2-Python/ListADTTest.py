@@ -7,6 +7,8 @@ if __name__ == "__main__":
 
     # Test add(e)
     listADT.add(10)
+    listADT.add("vbnm")
+
     listADT.add(20)
     listADT.add(30)
     if str(listADT) == "[10, 20, 30]":
