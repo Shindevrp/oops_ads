@@ -71,6 +71,8 @@ class Solution:
             if i=="(":
                 self.store.push(i)
             elif i==")":
+                if self.store.empty():
+                    return False
                 self.store.pop()
         return self.store.empty()   
 input=input()
