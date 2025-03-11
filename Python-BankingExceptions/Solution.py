@@ -27,10 +27,7 @@ class BankAccount:
         self.withdraw(amount)
         recipient.deposit(amount)
     
-    # def __str__(self):
-    #     return f"Account({self.account_number}, {self.account_holder}, Balance: {self.balance})"
 
- 
 class NegativeAmountException(Exception):
     def __init__(self, message):
         self.message =message
